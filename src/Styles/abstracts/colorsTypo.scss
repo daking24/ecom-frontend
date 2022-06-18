@@ -1,0 +1,226 @@
+@use 'colors' as *;
+
+// Background Colors
+.bg- {
+    black{
+        background-color: $c1A;
+    }
+    green{
+        background-color: $c2A;
+    }
+    brown{
+        background-color: $c3A;
+    }
+    pink{
+        background-color: $c4A;
+    }
+    blue{
+        background-color: $c5A;
+    }
+    white{
+        background-color: $c1H;
+    }
+
+    dark-{
+        white-1{
+            background-color: $c1G;
+        }
+        white-2{
+            background-color: $c1F;
+        }
+        white-3 {
+            background-color: $c1E;
+        }
+        white-4{
+            background-color: $c1D;
+        }
+        green {
+            background-color: $c2B;
+        }
+    
+        brown {
+            background-color: $c3B;
+        }
+    
+        pink {
+            background-color: $c4B;
+        }
+    
+        blue {
+            background-color: $c5B;
+        }
+    }
+
+    light-{
+        black-1 {
+            background-color: $c1B;
+        }
+        black-2 {
+            background-color: $c1C;
+        }
+    
+        green-1 {
+            background-color: $c2C;
+        }
+        green-2 {
+            background-color: $c2D;
+        }
+        green-3 {
+            background-color: $c2E;
+        }
+        brown-1 {
+            background-color: $c3C;
+        }
+
+        brown-2 {
+            background-color: $c3D;
+        }
+
+        brown-3 {
+            background-color: $c3E;
+        }
+    
+        pink-1 {
+            background-color: $c4C;
+        }
+    
+        pink-2 {
+            background-color: $c4D;
+        }
+    
+        pink-3 {
+            background-color: $c4E;
+        }
+    
+        blue-1 {
+            background-color: $c5C;
+        }
+    
+        blue-2 {
+            background-color: $c5D;
+        }
+    
+        blue-3 {
+            background-color: $c5E;
+        }
+    }
+}
+
+// Text Color
+.text- {
+    black {
+        background-color: $c1A;
+    }
+
+    green {
+        background-color: $c2A;
+    }
+
+    brown {
+        background-color: $c3A;
+    }
+
+    pink {
+        background-color: $c4A;
+    }
+
+    blue {
+        background-color: $c5A;
+    }
+
+    white {
+        background-color: $c1H;
+    }
+
+    dark- {
+        white-1 {
+            background-color: $c1G;
+        }
+
+        white-2 {
+            background-color: $c1F;
+        }
+
+        white-3 {
+            background-color: $c1E;
+        }
+
+        white-4 {
+            background-color: $c1D;
+        }
+
+        green {
+            background-color: $c2B;
+        }
+
+        brown {
+            background-color: $c3B;
+        }
+
+        pink {
+            background-color: $c4B;
+        }
+
+        blue {
+            background-color: $c5B;
+        }
+    }
+
+    light- {
+        black-1 {
+            background-color: $c1B;
+        }
+
+        black-2 {
+            background-color: $c1C;
+        }
+
+        green-1 {
+            background-color: $c2C;
+        }
+
+        green-2 {
+            background-color: $c2D;
+        }
+
+        green-3 {
+            background-color: $c2E;
+        }
+
+        brown-1 {
+            background-color: $c3C;
+        }
+
+        brown-2 {
+            background-color: $c3D;
+        }
+
+        brown-3 {
+            background-color: $c3E;
+        }
+
+        pink-1 {
+            background-color: $c4C;
+        }
+
+        pink-2 {
+            background-color: $c4D;
+        }
+
+        pink-3 {
+            background-color: $c4E;
+        }
+
+        blue-1 {
+            background-color: $c5C;
+        }
+
+        blue-2 {
+            background-color: $c5D;
+        }
+
+        blue-3 {
+            background-color: $c5E;
+        }
+    }
+}

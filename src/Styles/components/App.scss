@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: $c1H;
+    border: 1px solid $c1E;
+    border-top: 0px;
+    border-bottom: 0px;
+}

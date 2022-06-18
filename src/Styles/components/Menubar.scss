@@ -1,0 +1,28 @@
+@use '../abstracts' as *;
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+//   border: 1px solid #ccc;
+  padding: 1rem 2.5rem;
+  background-color: $c1G;
+
+  
+}
+
+.option{
+    display: flex;
+    gap: .3rem;
+    span{
+        font-size: $fs5;
+        font-weight: $fw5;
+        line-height: 1.3rem;
+        color: $c1A;
+    }
+    .__icon{
+        padding: .2rem;
+        color: $c2B;
+    }
+}

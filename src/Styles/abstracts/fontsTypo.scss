@@ -1,0 +1,50 @@
+@use 'fonts' as *;
+
+// Typography
+// --------------------------------------------------
+// Font Sizes
+.fs{
+    _1{
+        font-size: $fs1;
+    }
+    _2{
+        font-size: $fs2;
+    }
+    _3{
+        font-size: $fs3;
+    }
+    _4{
+        font-size: $fs4;
+    }
+    _5{
+        font-size: $fs5;
+    }
+    _6{
+        font-size: $fs6;
+    }
+}
+
+// Font Weight
+.fw{
+    _100{
+        font-weight: $fw1;
+    }
+    _200{
+        font-weight: $fw2;
+    }
+    _300{
+        font-weight: $fw3;
+    }
+    _400{
+        font-weight: $fw4;
+    }
+    _500{
+        font-weight: $fw5;
+    }
+    _600{
+        font-weight: $fw6;
+    }
+    _700{
+        font-weight: $fw7;
+    }
+}

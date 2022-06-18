@@ -1,0 +1,150 @@
+@use '../abstracts' as *;
+
+a {
+    text-decoration: none;
+    font-size: $fs6;
+    font-weight: $fw4;
+    color: $c2A;
+    line-height: 1rem;
+    
+}
+
+.nav {
+    font-family: "Open Sans";
+    padding: 0 3rem;
+    font-size: $fs6;
+
+    .__top{
+        padding: 1rem 0;
+        align-items: center;
+        display: flex;
+        line-height: 1rem;
+
+        .__left{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 1rem;
+            
+        }
+
+        .__right{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+    }
+
+    .__bottom{
+        padding: 1rem 0;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        .__logo{
+        }
+
+        .__searchBar{
+            display: inline-flex;
+            justify-content: center;
+            border: 1px solid $c1D;
+            border-radius: 0.5rem;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-color: $c1E;
+
+            .__dropdown-text{
+                display: inline-flex;
+                align-items: center;
+                font-family: "Poppins";
+                font-size: $fs5;
+                font-weight: $fw7;
+                line-break: 22.5px;
+                border: none;
+                background-color: transparent;
+                .__icon{
+                    margin: 0 0.5rem;
+                    padding-top: 0.2rem;
+                }
+            }
+            input {
+                border: none;
+                border-left: 1px solid $c1D;
+                outline: none;
+                font-size: $fs6;
+                color: $c1A;
+                padding: 0 0.5rem;
+                flex: 1;
+                background-color: transparent;
+                font-family: "Open Sans";
+                width: 100%;
+
+            }
+            .__sIcon{
+                padding-top: 0.2rem;
+                width: 1rem;
+                height: 1rem;
+                font-weight: $fw7;
+                color: $c1A;
+            }
+        }
+
+        .__button{
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            color: $c1A;
+            .__profile{
+                padding: 0 0.5rem;
+                .__icon{
+                    color: $c1A;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+
+            .__cart{
+                padding: 0 0.5rem;
+                position: relative;
+                .__icon{
+                    color: $c1A;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    position: relative;
+                    
+                }
+                .__counter {
+                    // display: flex;
+                    position: absolute;
+                    top: 50%;
+                    right: 50%;
+                    left: 10%;
+                    bottom: 0%;
+                    background-color: $c4A;
+                    color: $c1F;
+                    border-radius: 50%;
+                    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+                    .__number{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: $fs5;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+hr {
+    font-weight: $fw1;
+    font-size: $fs1;
+    color: $c1F;
+}
+

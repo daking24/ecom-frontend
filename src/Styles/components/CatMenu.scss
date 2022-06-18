@@ -1,0 +1,99 @@
+@use '../abstracts' as *;
+
+
+.category {
+    display: flex;
+    padding: 4rem 3rem;
+    align-items: center;
+    
+    justify-content: space-between;
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 20%;
+        .title{
+            font-size: $fs4;
+            font-weight: $fw6;
+            color: $c1A;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .links{
+            text-decoration: underline;
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+            color: $c2A;
+            font-family: "Open Sans";
+            font-weight: $fw4;
+            line-height: 19.07px;
+            font-size: $fs5;
+            margin-bottom: 3rem;
+        }
+        .button button{
+            display: flex;
+            border: none;
+            padding: 1rem;
+            border-radius: 0.95rem;
+            align-items: center;
+            justify-content: center;
+            font-family: $f2;
+            font-weight: $fw7;
+            font-size: $fs5;
+            line-height: 1.5rem;
+            .__icon{
+                padding: .3rem;
+                font-weight: $fw7;
+                color: $c1A;
+            }
+        }
+    }
+
+    .banner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 3rem;
+        background-color: $c1D;
+        width: 27%;
+        border-radius: 0.5rem;
+        .sub-heading{
+            font-size: $fs6;
+            font-weight: $fw6;
+            line-height: 1.15rem;
+            color: $c2A;
+            font-family: $f2;
+            margin-bottom: 0.5rem;
+        }
+        .heading{
+            font-size: $fs3;
+            font-weight: $fw6;
+            line-height: $fs1;
+            font-family: $f2;
+            color: $c1A;
+            margin-bottom: 6.01rem;
+        }
+        .banner-button button{
+            border: 0.15rem solid $c2A;
+            border-radius: 0.5rem;
+            background-color: transparent;
+            font-size: $fs5;
+            font-weight: $fw7;
+            line-height: $fs3;
+            font-family: $f2;
+            padding: 0.75rem;
+            color: $c1A;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            .__icon{
+                padding: 0.2rem 0.11rem;
+                font-weight: $fw7;
+                color: $c2A;
+            }
+        }
+
+    }
+}

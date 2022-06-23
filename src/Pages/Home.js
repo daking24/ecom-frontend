@@ -3,6 +3,7 @@ import Menubar from "../Components/Menubar"
 import BestSell from './../Components/BestSell';
 import BestFarmer from './../Components/BestFarmer';
 import CusReports from "../Components/CusReports";
+import Section from "../Components/Section";
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
         <BestSell />
         <BestFarmer />
         <CusReports />
+        <Section />
     </div>
   )
 }

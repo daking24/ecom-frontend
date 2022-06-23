@@ -1,0 +1,81 @@
+@use "../abstracts" as *;
+
+.CusReports {
+    padding: 4rem 0;
+   
+    
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0 3rem;
+
+    &__title {
+        font-size: 1.15rem;
+        font-weight: $fw6;
+        line-height: 27px;
+        font-family: $f2;
+    }
+    &__button {
+        border: none;
+        padding: .4rem .75rem;
+        align-items: center;
+        background-color: transparent;
+        font-weight: $fw7;
+        font-size: $fs5;
+        line-height: 22.5px;
+        &__icon {
+            padding: 0 .75rem;
+            padding-top: .25rem;
+            color: $c1A;
+        }
+    }
+}
+
+.mySwiper{
+    border: none;
+    padding: 2rem 2rem;
+    margin: 0;
+    .card{
+        border: 1px solid #F1F1F1;
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+        margin-bottom: 3rem;
+        position: relative;
+        
+        &__content{
+            text-align: center;
+            font-weight: $fw5;
+            font-size: $fs5;
+            line-height: 22px;
+            font-family: $f2;
+            margin-bottom: 1.5rem;
+        }
+        &__header{
+            font-weight: $fw6;
+            font-size: $fs6;
+            line-height: 18px;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        &__avatar{
+            position: absolute;
+            height: 3rem;
+            width: 3rem;
+            border-radius: 50%;
+            background-color: $c1F;
+            left: 40%;
+            top: 88%;
+        }
+    }
+
+    .swiper-button-next{
+        color: $c2B;
+    }
+    .swiper-button-prev{
+        color: $c2B;
+    }
+}

@@ -1,0 +1,120 @@
+@use "../abstracts" as *;
+
+.Section{
+    padding: 4rem 3rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    &__title{
+        font-size: 1.15rem;
+        font-weight: $fw6;
+        line-height: 27px;
+        font-family: $f2;
+    }
+    &__button{
+        border: none;
+        padding: .4rem .75rem;
+        align-items: center;
+        background-color: transparent;
+        font-weight: $fw7;
+        font-size: $fs5;
+        line-height: 22.5px;
+        &__icon{
+            padding: 0 .75rem;
+            padding-top: .25rem;
+            color: $c1A;
+        }
+    }
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid $c1D;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    padding: 1rem;
+
+    // gap: 1rem;
+    .card-image {
+        background-color: $c1E;
+        height: 11.25rem;
+        border-radius: 0.75rem;
+        padding: .75rem;
+        margin-bottom: 1rem;
+
+        .discount {
+            // margin: .75rem;
+            margin: 0;
+            line-height: 1.15rem;
+            font-size: 0.75rem;
+            font-weight: $fw6;
+            color: $c2A;
+            border-radius: .75rem;
+            background-color: $c2E;
+            padding: 0 .5rem;
+        }
+
+    }
+
+    .title {
+        font-size: $fs5;
+        font-family: $f2;
+        font-weight: $fw5;
+        line-height: 22.5px;
+        color: $c1A;
+        margin-bottom: 0.25rem;
+    }
+
+    .description {
+        font-family: $f1;
+        color: $c1B;
+        font-weight: $fw4;
+        line-height: 1rem;
+        font-size: $fs6;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .price {
+            font-family: $f2;
+            font-weight: $fw6;
+            font-size: 1.15rem;
+            line-height: 27px;
+            color: $c1A;
+
+            // display: flex;
+            // flex-direction: column;
+            // margin: 0;
+            .original {
+                font-size: $fs6;
+                color: $c1C;
+                line-height: 18px;
+                text-decoration: line-through;
+            }
+        }
+
+        .buy button {
+            font-size: $fs5;
+            font-weight: $fw7;
+            line-height: 22px;
+            color: $c1H;
+            padding: 6.5px .75rem;
+            border-radius: .75rem;
+            border: 2px solid $c2B;
+            background-color: $c2A;
+        }
+    }
+}

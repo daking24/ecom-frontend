@@ -1,0 +1,126 @@
+@use "../abstracts" as *;
+
+.grid {
+    display: flex;
+    border: none;
+    padding: 4rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        // width: 20%;
+        .title{
+            font-size: $fs4;
+            font-weight: $fw6;
+            color: $c1A;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .links{
+            text-decoration: underline;
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+            color: $c2A;
+            font-family: "Open Sans";
+            font-weight: $fw4;
+            line-height: 19.07px;
+            font-size: $fs5;
+            margin-bottom: 3rem;
+        }
+        .more button{
+            display: flex;
+            border: none;
+            padding: 1rem;
+            border-radius: 0.95rem;
+            align-items: center;
+            justify-content: center;
+            font-family: $f2;
+            font-weight: $fw7;
+            font-size: $fs5;
+            line-height: 1.5rem;
+            .__icon{
+                padding: .3rem;
+                font-weight: $fw7;
+                color: $c1A;
+            }
+        }
+    }
+    .card{
+        border: 1px solid $c1D;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.75rem;
+        padding: 1rem;
+        // gap: 1rem;
+        .card-image{
+            background-color: $c1E;
+            height: 11.25rem;
+            border-radius: 0.75rem;
+            padding: .75rem;
+            margin-bottom: 1rem;
+            .discount{
+                // margin: .75rem;
+                margin: 0;
+                line-height: 1.15rem;
+                font-size: 0.75rem;
+                font-weight: $fw6;
+                color: $c2A;
+                border-radius: .75rem;
+                background-color: $c2E;
+                padding: 0 .5rem;
+            }
+
+        }
+        .title{
+            font-size: $fs5;
+            font-family: $f2;
+            font-weight: $fw5;
+            line-height: 22.5px;
+            color: $c1A;
+            margin-bottom: 0.25rem;
+        }
+        .description{
+            font-family: $f1;
+            color: $c1B;
+            font-weight: $fw4;
+            line-height: 1rem;
+            font-size: $fs6;
+            margin-bottom: 1rem;
+        }
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .price{
+                font-family: $f2;
+                font-weight: $fw6;
+                font-size: 1.15rem;
+                line-height: 27px;
+                color: $c1A;
+                // display: flex;
+                // flex-direction: column;
+                // margin: 0;
+                .original{
+                    font-size: $fs6;
+                    color: $c1C;
+                    line-height: 18px;
+                    text-decoration: line-through;
+                }
+            }
+            .buy button{
+                font-size: $fs5;
+                font-weight: $fw7;
+                line-height: 22px;
+                color: $c1H;
+                padding: 6.5px .75rem;
+                border-radius: .75rem;
+                border: 2px solid $c2B;
+                background-color: $c2A;
+            }
+        }
+    }
+}

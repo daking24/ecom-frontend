@@ -1,4 +1,4 @@
-import "../Styles/components/BestSell.scss"
+import "../Styles/components/BestFarmer.scss"
 import { FiChevronRight } from 'react-icons/fi';
 
 
@@ -7,13 +7,13 @@ const BestSell = () => {
 		<div className="BestSell">
 			<div className="grid">
 				<div className="menu">
-					<div className="title">Best Selling Products</div>
+					<div className="title">Best From Farmers</div>
 					<div className="links">
-						<a href="/kitchen">Kitchen</a>
-						<a href="/kitchen">Kitchen</a>
-						<a href="/kitchen">Kitchen</a>
-						<a href="/kitchen">Kitchen</a>
-						<a href="/kitchen">Kitchen</a>
+						<a href="/carrot">carrot</a>
+						<a href="/carrot">carrot</a>
+						<a href="/carrot">carrot</a>
+						<a href="/carrot">carrot</a>
+						<a href="/carrot">carrot</a>
 					</div>
 					<div className="more">
 						<button>

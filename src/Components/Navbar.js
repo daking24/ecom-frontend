@@ -10,53 +10,55 @@ function Navbar() {
   return (
 		<div className="Navbar">
 			<div className="nav">
-				<div className="__top">
-					<div className="__left">
-						<a className="__link" href="/chat">
+				<div className="nav__top">
+					<div className="nav__top__left">
+						<a className="nav__top__left__link" href="/chat">
 							Chat With Us
 						</a>
-						<div className="__number">+2347069154328</div>
-						<div className="__email">info@freshnescom.com</div>
+						<div className="nav__top__left__number">+2347069154328</div>
+						<div className="nav__top__left__email">info@freshnescom.com</div>
 					</div>
-					<div className="__right">
+					<div className="nav__top__right">
 						<a href="/blog">Blog</a>
 						<a href="/about">About Us</a>
 						<a href="/careers">Careers</a>
 					</div>
 				</div>
 				<hr />
-				<div className="__bottom">
-					<div className="__left">
-						<img className="__logo" src={Logo} alt="Logo" />
+				<div className="nav__bottom">
+					<div className="nav__bottom__left">
+						<img className="nav__bottom__left__logo" src={Logo} alt="Logo" />
 					</div>
-					<div className="__searchBar">
-						<div className="__dropdown">
-							<button className="__dropdown-text">
+					<div className="nav__bottom__searchBar">
+						<div className="nav__bottom__searchBar__dropdown">
+							<button className="nav__bottom__searchBar__dropdown-text">
 								All Categories
-								<div className="__icon">
+								<div className="nav__bottom__searchBar__dropdown-text__icon">
 									<FiChevronDown />
 								</div>
 							</button>
 						</div>
 						<input
-							className="__search"
+							className="nav__bottom__searchBar__search"
 							type="text"
 							placeholder="Search Products, Categories"
 						/>
 						<a href="/search">
-							<VscSearch className="__sIcon" />
+							<VscSearch className="nav__bottom__searchBar__sIcon" />
 						</a>
 					</div>
-					<div className="__button">
-						<div className="__profile">
+					<div className="nav__bottom__button">
+						<div className="nav__bottom__button__profile">
 							<a href="/profile">
-								<AiOutlineUser className="__icon" />
+								<AiOutlineUser className="nav__bottom__button__profile__icon" />
 							</a>
 						</div>
-						<div className="__cart">
+						<div className="nav__bottom__button__cart">
 							<a href="/cart">
-								<HiOutlineShoppingBag className="__icon" />
-								<div className="__counter"><span className="__number">5</span></div>
+								<HiOutlineShoppingBag className="nav__bottom__button__cart__icon" />
+								<div className="nav__bottom__button__cart__counter">
+									<span className="nav__bottom__button__cart__counter__number">5</span>
+								</div>
 							</a>
 						</div>
 					</div>

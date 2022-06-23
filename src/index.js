@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "swiper/css/bundle";
 import App from './App';
+
 import './Styles/index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

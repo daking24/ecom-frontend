@@ -1,5 +1,8 @@
 import CatMenu from "../Components/CatMenu"
 import Menubar from "../Components/Menubar"
+import BestSell from './../Components/BestSell';
+import BestFarmer from './../Components/BestFarmer';
+import CusReports from "../Components/CusReports";
 
 
 function Home() {
@@ -7,6 +10,9 @@ function Home() {
     <div className="Home">
         <Menubar />
         <CatMenu />
+        <BestSell />
+        <BestFarmer />
+        <CusReports />
     </div>
   )
 }

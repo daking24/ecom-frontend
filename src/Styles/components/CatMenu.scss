@@ -5,8 +5,9 @@
     display: flex;
     padding: 4rem 3rem;
     align-items: center;
-    
+    gap: 1rem;
     justify-content: space-between;
+    // flex-wrap: wrap;
     .menu{
         display: flex;
         flex-direction: column;

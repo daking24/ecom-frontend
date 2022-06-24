@@ -1,4 +1,5 @@
 @use "../abstracts" as *;
+@use "../mixins" as *;
 
 .grid {
     display: flex;
@@ -7,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    // flex-wrap: wrap;
     .menu{
         display: flex;
         flex-direction: column;
@@ -79,7 +81,7 @@
             font-size: $fs5;
             font-family: $f2;
             font-weight: $fw5;
-            line-height: 22.5px;
+            line-height: toRem(22.5);
             color: $c1A;
             margin-bottom: 0.25rem;
         }
@@ -99,11 +101,8 @@
                 font-family: $f2;
                 font-weight: $fw6;
                 font-size: 1.15rem;
-                line-height: 27px;
+                line-height: toRem(27);
                 color: $c1A;
-                // display: flex;
-                // flex-direction: column;
-                // margin: 0;
                 .original{
                     font-size: $fs6;
                     color: $c1C;

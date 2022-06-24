@@ -29,7 +29,7 @@ const CusReports = () => {
 				<Swiper
 					slidesPerView={4}
 					spaceBetween={30}
-					slidesPerGroup={6}
+					slidesPerGroup={1}
 					loop={true}
 					loopFillGroupWithBlank={false}
 					pagination={false}

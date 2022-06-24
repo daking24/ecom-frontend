@@ -1,4 +1,5 @@
 @use "../abstracts" as *;
+@use "../mixins" as *;
 
 .CusReports {
     padding: 4rem 0;
@@ -20,16 +21,16 @@
         font-family: $f2;
     }
     &__button {
-        border: none;
-        padding: .4rem .75rem;
-        align-items: center;
+        padding: toRem(6) toRem(12);
         background-color: transparent;
+        display: flex;
+        align-items: center;
+        gap: toRem(12.5);
+        font-size: toRem(15);
         font-weight: $fw7;
-        font-size: $fs5;
-        line-height: 22.5px;
+        line-height: toRem(22.5);
+        border: none;
         &__icon {
-            padding: 0 .75rem;
-            padding-top: .25rem;
             color: $c1A;
         }
     }

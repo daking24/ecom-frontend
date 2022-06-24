@@ -1,0 +1,68 @@
+@use '../abstracts' as *;
+@use '../mixins' as *;
+
+.mainfooter{
+    padding: 4rem 3rem;
+    // border: 1px solid $c2B;
+    display: flex;
+    gap: toRem(48);
+    flex-direction: column;
+    .links {
+        display: flex;
+        justify-content: space-between;
+        &__group{
+            display: flex;
+            flex-direction: column;
+            gap: toRem(16);
+            &__title{
+                font-family: $f2;
+                font-size: toRem(18);
+                font-weight: $fw6;
+                line-height: toRem(27);
+            }
+            &__urls{
+                display: flex;
+                flex-direction: column;
+                gap: toRem(16);
+                a {
+                    font-size: toRem(14);
+                    font-weight: $fw4;
+                    line-height: toRem(19);
+                    font-family: $f1;
+                }
+            }
+        }
+    }
+    .tags{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        &__header{
+            font-family: $f2;
+            font-size: toRem(18);
+            font-weight: $fw6;
+            line-height: toRem(27);
+        }
+        &__tag{
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            &__id{
+                background-color: $c1F;
+                padding: toRem(4) toRem(10);
+                border-radius: toRem(12);
+                color: $c1A;
+                font-size: toRem(12);
+                font-family: $f2;
+                font-weight: $fw6;
+                line-height: toRem(18);
+            }
+        }
+    }
+    .copyright{
+        font-family: $f1;
+        font-size: toRem(14);
+        font-weight: $fw4;
+        line-height: toRem(19);
+    }
+}
